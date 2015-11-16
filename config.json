@@ -1,0 +1,28 @@
+{
+    "allowext": ["png", "jpg", "jpeg", "gif", "css", "js", "swf", "ogv", "ogg", "mp4", "webm", "html"],
+    "rules" : {
+        "js": {
+            "source" : "./dist/js/",
+            "target" : "./cdn/tiku/js/",
+            "recursive" : 1,
+            "compress": 0
+        },
+        "css": {
+            "source" : "./dist/css/",
+            "target" : "./cdn/tiku/css/",
+            "recursive" : 1,
+            "compress": 0
+        },
+        "image": {
+            "source" : "./dist/img/",
+            "target" : "./cdn/tiku/img/",
+            "recursive" : 1,
+            "compress": 0
+        },
+        "html": {
+            "source": "./dist/",
+            "target": "./webserver/tiku/",
+            "compress": 0
+        }
+    }
+}
